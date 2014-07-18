@@ -1,0 +1,19 @@
+{application, list_bitcask_keys_to_file,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { list_bitcask_keys_to_file, []}},
+  {env, [
+    {modules, [list_bitcask_keys_to_file]},
+    {lager,
+      {handlers, [
+        {lager_console_backend, info}
+      ]}
+    }
+  ]}
+ ]}.
