@@ -1,1 +1,3 @@
 ebin
+deps/
+list_bitcask_keys_to_file
